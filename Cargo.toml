@@ -1,0 +1,44 @@
+[package]
+name = "rusty"
+version = "0.1.0"
+authors = ["alk"]
+
+[[bin]]
+name = "hello_world"
+path = "src/hello_world/main.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "src/guessing_game/main.rs"
+
+[[bin]]
+name = "rust_commons"
+path = "src/rust_commons/main.rs"
+
+[[bin]]
+name = "rust_commons_variables"
+path = "src/rust_commons/variables/main.rs"
+
+[[bin]]
+name = "rust_commons_datatypes"
+path = "src/rust_commons/datatypes/main.rs"
+
+[[bin]]
+name = "rust_commons_functions"
+path = "src/rust_commons/functions/main.rs"
+
+[[bin]]
+name = "rust_commons_controlflow"
+path = "src/rust_commons/controlflow/main.rs"
+
+[[bin]]
+name = "rust_commons_ownership"
+path = "src/rust_commons/ownership/main.rs"
+
+[[bin]]
+name = "rust_commons_refandborrow"
+path = "src/rust_commons/refandborrow/main.rs"
+
+[dependencies]
+rand = "0"
+libc = "0"
